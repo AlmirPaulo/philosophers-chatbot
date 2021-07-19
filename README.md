@@ -35,7 +35,7 @@ The AI is trained with the book Meditations by Marcus Aurelius. So it's limited 
 
 In what concerns the backend, the main idea for scalability is to create a database (NoSQL maybe) with more content to train the AI. So we can have a "better Marcus Aurelius" or more Philosophers (adding their respective books). Feel free to pull request me any improvement in this  areas.
 
-## Backend Technologies
+<!--## Backend Technologies
 * Python
 * Django
 * Docker (*working on*)
