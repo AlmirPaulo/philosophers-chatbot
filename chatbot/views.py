@@ -5,11 +5,11 @@ from .ai import response, greeting, sent_tokens
 
 def home(request):
 #The chatbot
+    answer = ''
     if request.method == 'POST':
         form = AskForm(request.POST)         
         user_response = form['question'].value()
         if form.is_valid:
-            answer = ''
             user_response = user_response.lower()
             if user_response != 'bye':
                 if user_response == 'thanks' or user_response == 'thank you':
